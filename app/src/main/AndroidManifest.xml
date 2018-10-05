@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.masho.bloodbankapplication">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/blood"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/blood"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon">
+        <activity android:name=".Splash_Screen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="Login Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SignupActivity"
+            android:label="SignUp Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".MainPage"
+            android:label="@string/title_activity_main_page"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Add_Post"
+            android:label="Add Post"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Show_Post"
+            android:label="Show Post"
+            android:screenOrientation="portrait" />
+
+        <activity android:name=".MyPost"
+            android:screenOrientation="portrait"
+            android:label="MyPost"/>
+    </application>
+
+</manifest>

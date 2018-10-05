@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Manage">
+            <menu>
+                <item
+                    android:id="@+id/Homepage"
+                    android:icon="@drawable/homepage"
+                    android:title="HomePage"/>
+        <item
+            android:id="@+id/AddPost"
+            android:icon="@drawable/ic_action_name"
+            android:title="Add Post" />
+        <item
+            android:id="@+id/ShowPost"
+            android:icon="@drawable/view"
+            android:title="Show All Post" />
+         <item
+             android:id="@+id/ShowMyPost"
+             android:title="My Posts"
+             android:icon="@drawable/view"
+             />
+            </menu>
+        </item>
+
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/Signout"
+                android:icon="@drawable/signout"
+                android:title="Signout" />
+
+        </menu>
+    </item>
+
+</menu>

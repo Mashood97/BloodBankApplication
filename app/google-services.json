@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1014654972410",
+    "firebase_url": "https://blood-donation-app-7e095.firebaseio.com",
+    "project_id": "blood-donation-app-7e095",
+    "storage_bucket": "blood-donation-app-7e095.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1014654972410:android:bd43faedd5c62afe",
+        "android_client_info": {
+          "package_name": "com.example.masho.bloodbankapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1014654972410-ilcs6ckk0n5i4071a3km9molfbh4l1j2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtoOCeqJ6syP6TpgZC0JtTOKHLzPvnHLQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

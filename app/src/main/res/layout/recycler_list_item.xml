@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp">
+<TextView
+    android:id="@+id/UserNames"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="UserName"
+    android:textColor="#000"
+    android:textSize="20sp"/>
+<TextView
+    android:layout_marginTop="10dp"
+    android:id="@+id/Address"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Address"
+    android:textColor="#000"
+    android:textSize="20sp"/>
+<TextView
+    android:layout_marginTop="10dp"
+    android:id="@+id/Genders"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Gender"
+    android:textColor="#000"
+    android:textSize="20sp"/>
+<TextView
+    android:layout_marginTop="10dp"
+    android:id="@+id/Pno"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="PhoneNumber"
+    android:textColor="#000"
+    android:textSize="20sp"/>
+<TextView
+    android:layout_marginTop="10dp"
+    android:id="@+id/BloodGroups"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="BloodGroups"
+    android:textColor="#000"
+    android:textSize="20sp"/>
+<TextView
+    android:layout_marginTop="10dp"
+    android:id="@+id/BloodTypes"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="BloodTypes"
+    android:textColor="#000"
+    android:textSize="20sp"/>
+<TextView
+    android:layout_marginTop="10dp"
+    android:id="@+id/Diseases"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Diseases"
+    android:textColor="#000"
+    android:textSize="20sp"/>
+</LinearLayout>
